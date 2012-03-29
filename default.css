@@ -1,0 +1,117 @@
+body
+{
+	background-image: url( 'back.png' );
+	color: white;
+	text-shadow: green 0 0 2px;
+	font-family: 'Antic', sans-serif;
+}
+
+a
+{
+	color:white;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-shadow: green 0 0 4px;
+}
+
+#header
+{
+	background-color: #000000;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity=50);
+	width: 1000px;
+	margin: auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+#container
+{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 20px;
+	box-shadow: none;
+}
+
+#menu
+{
+	background-color: #000000;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity=50);
+	width: 200px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	float:left;
+}
+
+#content
+{
+	background-color: #000000;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity=50);
+	width: 770px;
+	padding: 10px;
+	float:right;
+}
+
+#footer
+{
+	background-color: #000000;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity=50);
+	width: 1000px;
+	margin: auto;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-top: 20px;
+}
+
+#footer p
+{
+	text-align: center;
+}
+
+#clear
+{
+	clear: both;
+	box-shadow: none;
+}
+
+#menu h3
+{
+	text-align: center;
+}
+
+div
+{
+	-webkit-box-shadow: 0 0 5px 1px #888888;
+	-moz-box-shadow: 0 0 5px 1px #888888;
+	box-shadow: 0 0 5px 1px #888888;
+}
+
+div:hover
+{
+	-webkit-box-shadow: 0 0 10px 1px green;
+	-moz-box-shadow: 0 0 10px 1px green;
+	box-shadow: 0 0 10px 1px green;
+
+}
+
+#header p
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+#content h3
+{
+	text-align: center;
+}
