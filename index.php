@@ -21,9 +21,6 @@ $posts[0]['body'] = <<<EOT
 		<p>
 			Don't expect to find much of value on this site; this is just where I throw stuff when it doesn't have any place better to go.
 		</p>
-		<p>
-			I do run a semi-public Minecraft server -- you can find more about that under "Minecraft" on the left.
-		</p>
 EOT;
 
 include('template.php');
