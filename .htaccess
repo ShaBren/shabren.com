@@ -1,4 +1,4 @@
 RewriteEngine on
 RewriteBase /
-#RewriteCond $1 !^(default\.css|back\.png)
+RewriteCond $1 !^(default\.css|back\.png)
 RewriteRule ^(.*)$ index.php?page=$1
