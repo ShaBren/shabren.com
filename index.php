@@ -13,6 +13,7 @@ $menu[3]['name'] = "Code";
 
 switch( $_GET['page'] )
 {
+default:
 case '':
 case 'home':
 {
@@ -42,6 +43,7 @@ case 'minecraft':
 EOT;
 
 }
+break;
 
 case 'minecraft':
 {
@@ -55,6 +57,7 @@ case 'minecraft':
 EOT;
 
 }
+break;
 }
 
 include('template.php');
